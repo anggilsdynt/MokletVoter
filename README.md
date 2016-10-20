@@ -8,9 +8,9 @@ Dibuat Oleh :
 
 15 / Fadil Ghulam Pratama / 4342/1240.070 / XIIRPL3 / fadilnoob
 
-25 / Vegas Zuba'ir / 4289/1354.070 / XIIRPL3 / vegaszvair
+25 / Pasha Anisa Herdwiyanti Ramadhani / 4243/1308.070 / XIIRPL3 / pashaaneesa
 
-35 / Pasha Anisa Herdwiyanti Ramadhani / 4243/1308.070 / XIIRPL3 / pashaaneesa
+35 / Vegas Zuba'ir / 4289/1354.070 / XIIRPL3 / vegaszvair
 
 SMK TELKOM MALANG
 
