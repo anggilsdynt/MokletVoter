@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Calon Ketua Osis"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewNama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="70dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/textViewKelas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNama1"
+        android:layout_alignStart="@+id/textViewNama1"
+        android:layout_below="@+id/textViewNama1"
+        android:text="Kelas" />
+
+    <TextView
+        android:id="@+id/textViewTahun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewKelas1"
+        android:layout_alignStart="@+id/textViewKelas1"
+        android:layout_below="@+id/textViewKelas1"
+        android:text="Tahun Ajaran" />
+
+    <TextView
+        android:id="@+id/textViewNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTahun1"
+        android:layout_alignStart="@+id/textViewTahun1"
+        android:layout_below="@+id/textViewTahun1"
+        android:layout_marginTop="62dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/textViewKelas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNama2"
+        android:layout_alignStart="@+id/textViewNama2"
+        android:layout_below="@+id/textViewNama2"
+        android:text="Kelas" />
+
+    <TextView
+        android:id="@+id/textViewTahun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewKelas2"
+        android:layout_alignStart="@+id/textViewKelas2"
+        android:layout_below="@+id/textViewKelas2"
+        android:text="Tahun Ajaran" />
+
+    <TextView
+        android:id="@+id/textViewNama3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTahun2"
+        android:layout_alignStart="@+id/textViewTahun2"
+        android:layout_below="@+id/textViewTahun2"
+        android:layout_marginTop="70dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/textViewKelas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNama3"
+        android:layout_alignStart="@+id/textViewNama3"
+        android:layout_below="@+id/textViewNama3"
+        android:text="Kelas" />
+
+    <TextView
+        android:id="@+id/textViewTahun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewKelas3"
+        android:layout_alignStart="@+id/textViewKelas3"
+        android:layout_below="@+id/textViewKelas3"
+        android:text="Tahun Ajaran" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:text="SAVE" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewKelas2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewKelas3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="SMK Telkom Malang" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTahun1"
+        android:layout_alignStart="@+id/textViewTahun1"
+        android:layout_below="@+id/textViewTahun1"
+        android:text="SCORE" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTahun2"
+        android:layout_alignStart="@+id/textViewTahun2"
+        android:layout_below="@+id/textViewTahun2"
+        android:text="SCORE" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTahun3"
+        android:layout_alignStart="@+id/textViewTahun3"
+        android:layout_below="@+id/textViewTahun3"
+        android:text="SCORE" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/textView5"
+        android:text="TIMER" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="BROADCAST" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignEnd="@+id/imageView5"
+        android:layout_alignRight="@+id/imageView5"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>
