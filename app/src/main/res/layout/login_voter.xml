@@ -62,8 +62,8 @@
             android:id="@+id/spinnerKelas"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.7"
-            android:entries="@array/kelas" />
+            android:layout_weight="0.7" />
+        <!--android:entries="@array/kelas"-->
 
     </LinearLayout>
 

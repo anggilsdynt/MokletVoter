@@ -10,8 +10,68 @@
     tools:context="id.sch.smktelkom_mlg.project.xiirpl305152535.mokletvoter.MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Selamat Datang di Aplikasi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Moklet Voter"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="#080808" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/buttonVoter"
+        android:text="ADMIN"
+        android:textColor="#040404" />
+
+    <Button
+        android:id="@+id/buttonVoter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:text="VOTER"
+        android:textColor="#040404" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="v 1.0" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonAdmin"
+        android:layout_centerHorizontal="true"
+        android:text="HELP" />
 
 </RelativeLayout>
